@@ -28,4 +28,4 @@ Answer the following questions from the Chapter 1 reading from your text- book. 
 10. Modern operating systems decouple a process address space from the machine’s physical memory. List two advantages of this design.
 
 ### Deliverables
-Submit the answers to the questions on Beachboard Dropbox by the indicated due date and time. Approved file submission formats are: .txt, .md, .pdf. .html (renderable) or anything that is web-readable on Github. Other formats will only be accepted with explicit approval.
+Commit the answers to the questions in a readable file to your git repository by the due date and time indicated with your repository. Approved file submission formats are: .txt, .md, .pdf. .html (renderable) or anything that is web-readable on Github. Other formats will only be accepted with explicit approval.
