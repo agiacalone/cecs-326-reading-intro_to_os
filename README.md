@@ -3,8 +3,10 @@
 ### Assignment Description
 Answer the following questions from the Chapter 1 reading from your text- book. Be through and complete with your answers. You may work on these questions with one or two other partners, but *all* students must submit the document individually in their own repositories along with each student's name documented with the submission.
 
+Andrew Dante (026050685)
+
 1. What are the two main functions of an operating system?
-    The two main functions of an operating system is providing application programmers a clean abstract set of resources and managing hardware resources
+    The two main functions of an operating system is providing application programmers a clean abstract set of resources and managing hardware resources.
 2. What is the difference between timesharing and multiprogramming systems?
     The difference between timesharing and multiprogramming system is timesharing has multiple users in individual online terminals all sharing to a CPU that allocates time to multiple small-scale jobs, while multiprogramming systems partition memory in a way so that while one job was waiting for I/O to complete, another jobs could be using the CPU.
 3. The family-of-computers idea was introduced in the 1960s with the IBM System/360 mainframes. Is this idea now dead as a doornail or does it live on?
@@ -21,10 +23,10 @@ Answer the following questions from the Chapter 1 reading from your text- book. 
     (c) Set the time-of-day clock. (d) Change the memory map.
     Disabling all interrupts, setting the time-of-day clock, and changing the memory map should only be allowed in kernel mode.
 8. Consider a system that has two CPUs, each CPU having two threads (hyperthreading). Suppose three programs, P0, P1, and P2, are started with run times of 5, 10 and 20 msec, respectively. How long will it take to complete the execution of these programs? Assume that all three programs are 100% CPU bound, do not block during execution, and do not change CPUs once assigned.
-
+    It will take 20 msec to complete the execution of these programs.
 9. What is a trap instruction? Explain its use in operating systems.
-
+    The trap instruction swiches from user mode to kernel mode and starts the operating system, where control is returned to the user program follwing the system call. Most traps are served to warn of an exceptional situation and resolve it, error messsage or not.
 10. Modern operating systems decouple a process address space from the machine’s physical memory. List two advantages of this design.
-
+    One advantage to the modern operating systems decoupling a process address space from the machine's physical memory is that it is able to use a process that has a larger address space than the computer's main memory. Another advantage is that the operating system creates the abstraction of an address space as the set of addresses a process may reference.
 ### Deliverables
 Commit the answers to the questions in a readable file to your git repository by the due date and time indicated with your repository. Approved file submission formats are: .txt, .md, .pdf. .html (renderable) or anything that is web-readable on Github. Other formats will only be accepted with explicit approval.
